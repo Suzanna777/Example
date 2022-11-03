@@ -1,6 +1,7 @@
 package com.exampl.home;
 
 import com.exampl.home.Garage;
+import com.exampl.person.Person;
 import com.exampl.zoo.Pet;
 
 public class Home {
@@ -10,6 +11,7 @@ public class Home {
     private double price;
     private Garage garage;
     private Pet pet;
+    private Person person;
 
     public Home() {
 
@@ -97,4 +99,13 @@ public class Home {
     public void setPet(Pet pet) {
         this.pet = pet;
     }
+
+    public Person getPerson() {
+        return person;
+    }
+
+    public void setPerson(Person person) {
+        this.person = person;
+    }
 }
+
